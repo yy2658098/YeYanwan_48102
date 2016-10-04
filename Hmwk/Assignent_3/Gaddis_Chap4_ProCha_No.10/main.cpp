@@ -27,41 +27,41 @@ int main(int argc, char** argv) {
     cin>>Year;
     switch (Month)
     {
-        case 1:cout<<"31 days\n";
+        case 1:cout<<"There are 31 days in January "<< Year<<endl;
                break;
         case 2:
-            if (Year%100==0&&Year%400==0)
+            if (Year%400==0)
             {
-                cout<<"29 days\n";
+                cout<<"There are 29 days in February "<< Year<<endl;
             }
-            else if (Year%4==0)
+            else if (Year%100!=0&&Year%4==0)
             {
-                cout<<"29 days\n";
+                cout<<"There are 29 days in February "<< Year<<endl;
             }
             else
             {
-                cout<<"28 days\n";
+                cout<<"There are 28 days in February "<< Year<<endl;
             }
                 break;
-        case 3:cout<<"31 days\n";
+        case 3:cout<<"There are 31 days in March "<< Year<<endl;
                break;
-        case 4:cout<<"30 days\n";
+        case 4:cout<<"There are 30 days in April "<< Year<<endl;
                break;
-        case 5:cout<<"31 days\n";
+        case 5:cout<<"There are 31 days in May "<< Year<<endl;
                break;
-        case 6:cout<<"30 days\n";
+        case 6:cout<<"There are 30 days in June "<< Year<<endl;
                break;
-        case 7:cout<<"31 days\n";
+        case 7:cout<<"There are 31 days in July "<< Year<<endl;
                break;
-        case 8:cout<<"31 days\n";
+        case 8:cout<<"There are 31 days in August "<< Year<<endl;
                break;
-        case 9:cout<<"30 days\n";
+        case 9:cout<<"There are 30 days in September "<< Year<<endl;
                break;
-        case 10:cout<<"31 days\n";
+        case 10:cout<<"There are 31 days in October "<< Year<<endl;
                break;
-        case 11:cout<<"30 days\n";
+        case 11:cout<<"There are 30 days in November "<< Year<<endl;
                break;
-        case 12:cout<<"31 days\n";
+        case 12:cout<<"There are 31 days in December "<< Year<<endl;
                break;
 
     }
